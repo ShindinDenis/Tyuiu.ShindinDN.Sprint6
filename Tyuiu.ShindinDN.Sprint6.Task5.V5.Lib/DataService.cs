@@ -12,7 +12,10 @@ namespace Tyuiu.ShindinDN.Sprint6.Task5.V5.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    len++;
+                    if (Convert.ToDouble(line) % 2 == 0)
+                    {
+                        len++;
+                    }
                 }
             }
 
@@ -27,8 +30,8 @@ namespace Tyuiu.ShindinDN.Sprint6.Task5.V5.Lib
                     if (Convert.ToDouble(line) % 2 == 0)
                     {
                         numsArray[index] = Convert.ToDouble(line);
+                        index++;
                     }
-                    index++;
                 }
 
                 return numsArray;
