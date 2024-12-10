@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.ShindinDN.Sprint6.Task6.V6
+﻿namespace Tyuiu.ShindinDN.Sprint6.Task7.V2
 {
     partial class Form2
     {
@@ -31,9 +31,9 @@
             pictureBoxAvatar = new PictureBox();
             labelInfo_NVI = new Label();
             buttonOk = new Button();
-            label3 = new Label();
-            label2 = new Label();
             label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAvatar).BeginInit();
             SuspendLayout();
             // 
@@ -69,32 +69,32 @@
             buttonOk.UseVisualStyleBackColor = true;
             buttonOk.Click += buttonOk_Click;
             // 
-            // label3
+            // label1
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(150, 82);
-            label3.Name = "label3";
-            label3.Size = new Size(302, 15);
-            label3.TabIndex = 8;
-            label3.Text = "Программа разработана в рамках изучения языка C#";
+            label1.AutoSize = true;
+            label1.Location = new Point(156, 32);
+            label1.Name = "label1";
+            label1.Size = new Size(151, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Разработчик: Шиндин Д.Н";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(150, 56);
+            label2.Location = new Point(156, 56);
             label2.Name = "label2";
             label2.Size = new Size(116, 15);
-            label2.TabIndex = 7;
+            label2.TabIndex = 4;
             label2.Text = "группа ИСТНБ-24-1";
             // 
-            // label1
+            // label3
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(150, 32);
-            label1.Name = "label1";
-            label1.Size = new Size(151, 15);
-            label1.TabIndex = 6;
-            label1.Text = "Разработчик: Шиндин Д.Н";
+            label3.AutoSize = true;
+            label3.Location = new Point(156, 82);
+            label3.Name = "label3";
+            label3.Size = new Size(302, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Программа разработана в рамках изучения языка C#";
             // 
             // Form2
             // 
@@ -124,8 +124,8 @@
         private PictureBox pictureBoxAvatar;
         private Label labelInfo_NVI;
         private Button buttonOk;
-        private Label label3;
-        private Label label2;
         private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }
