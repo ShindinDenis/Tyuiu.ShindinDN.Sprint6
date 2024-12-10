@@ -17,7 +17,11 @@ namespace Tyuiu.ShindinDN.Sprint6.Task6.V6.Lib
                     {
                         if (word.Contains("b"))
                         {
-                            resStr = resStr + " " + word;
+                            if (!string.IsNullOrEmpty(resStr))
+                            {
+                                resStr += " ";
+                            }
+                            resStr += word;
                         }
                     }
 
